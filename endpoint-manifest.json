@@ -1,0 +1,1214 @@
+[
+  {
+    "doc_path": "/zh/docs/api/ai-model/audio/geminirelayv1beta-383836364",
+    "title": "原生Gemini格式 | New API",
+    "method": "POST",
+    "route": "/v1beta/models/{model}:generateContent"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/audio/openai/createspeech",
+    "title": "文本转语音 | New API",
+    "method": "POST",
+    "route": "/v1/audio/speech"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/audio/openai/createtranscription",
+    "title": "音频转录 | New API",
+    "method": "POST",
+    "route": "/v1/audio/transcriptions"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/audio/openai/createtranslation",
+    "title": "音频翻译 | New API",
+    "method": "POST",
+    "route": "/v1/audio/translations"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/chat/createmessage",
+    "title": "原生Claude格式 | New API",
+    "method": "POST",
+    "route": "/v1/messages"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/chat/gemini/geminirelayv1beta",
+    "title": "Gemini文本聊天 | New API",
+    "method": "POST",
+    "route": "/v1beta/models/{model}:generateContent"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/chat/gemini/geminirelayv1beta-391536411",
+    "title": "Gemini媒体识别 | New API",
+    "method": "POST",
+    "route": "/v1beta/models/{model}:generateContent"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/chat/openai/createchatcompletion",
+    "title": "ChatCompletions格式 | New API",
+    "method": "POST",
+    "route": "/v1/chat/completions"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/chat/openai/createresponse",
+    "title": "Responses格式 | New API",
+    "method": "POST",
+    "route": "/v1/responses"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/completions/createcompletion",
+    "title": "原生OpenAI格式 | New API",
+    "method": "POST",
+    "route": "/v1/completions"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/embeddings/createembedding",
+    "title": "原生OpenAI格式 | New API",
+    "method": "POST",
+    "route": "/v1/embeddings"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/embeddings/createengineembedding",
+    "title": "原生Gemini格式 | New API",
+    "method": "POST",
+    "route": "/v1/engines/{model}/embeddings"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/images/gemini/geminirelayv1beta-383837589",
+    "title": "Gemini原生格式 | New API",
+    "method": "POST",
+    "route": "/v1beta/models/{model}:generateContent/"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/images/gemini/geminirelayv1beta-389846313",
+    "title": "OpenAI聊天格式 | New API",
+    "method": "POST",
+    "route": "/v1/chat/completions"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/images/openai/post-v1-images-edits",
+    "title": "编辑图像 | New API",
+    "method": "POST",
+    "route": "/v1/images/edits/"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/images/openai/post-v1-images-generations",
+    "title": "生成图像 | New API",
+    "method": "POST",
+    "route": "/v1/images/generations/"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/images/qwen/createimage",
+    "title": "生成图像 | New API",
+    "method": "POST",
+    "route": "/v1/images/generations"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/images/qwen/editimage",
+    "title": "编辑图像 | New API",
+    "method": "POST",
+    "route": "/v1/images/edits"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/models/list/listmodels",
+    "title": "原生OpenAI格式 | New API",
+    "method": "GET",
+    "route": "/v1/models"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/models/list/listmodelsgemini",
+    "title": "原生Gemini格式 | New API",
+    "method": "GET",
+    "route": "/v1beta/models"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/moderations/createmoderation",
+    "title": "原生OpenAI格式 | New API",
+    "method": "POST",
+    "route": "/v1/moderations"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/realtime/createrealtimesession",
+    "title": "原生OpenAI格式 | New API",
+    "method": "GET",
+    "route": "/v1/realtime"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/rerank/creatererank",
+    "title": "文档重排序 | New API",
+    "method": "POST",
+    "route": "/v1/rerank"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/unimplemented/files/createfile",
+    "title": "上传文件 (未实现) | New API",
+    "method": "POST",
+    "route": "/v1/files"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/unimplemented/files/deletefile",
+    "title": "删除文件 (未实现) | New API",
+    "method": "DELETE",
+    "route": "/v1/files/{file_id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/unimplemented/files/downloadfile",
+    "title": "获取文件内容 (未实现) | New API",
+    "method": "GET",
+    "route": "/v1/files/{file_id}/content"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/unimplemented/files/listfiles",
+    "title": "列出文件 (未实现) | New API",
+    "method": "GET",
+    "route": "/v1/files"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/unimplemented/files/retrievefile",
+    "title": "获取文件信息 (未实现) | New API",
+    "method": "GET",
+    "route": "/v1/files/{file_id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/unimplemented/fine-tuning/cancelfinetune",
+    "title": "取消微调任务 (未实现) | New API",
+    "method": "POST",
+    "route": "/v1/fine-tunes/{fine_tune_id}/cancel"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/unimplemented/fine-tuning/createfinetune",
+    "title": "创建微调任务 (未实现) | New API",
+    "method": "POST",
+    "route": "/v1/fine-tunes"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/unimplemented/fine-tuning/listfinetuneevents",
+    "title": "获取微调任务事件 (未实现) | New API",
+    "method": "GET",
+    "route": "/v1/fine-tunes/{fine_tune_id}/events"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/unimplemented/fine-tuning/listfinetunes",
+    "title": "列出微调任务 (未实现) | New API",
+    "method": "GET",
+    "route": "/v1/fine-tunes"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/unimplemented/fine-tuning/retrievefinetune",
+    "title": "获取微调任务详情 (未实现) | New API",
+    "method": "GET",
+    "route": "/v1/fine-tunes/{fine_tune_id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/videos/createvideogeneration",
+    "title": "创建视频生成任务 | New API",
+    "method": "POST",
+    "route": "/v1/video/generations"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/videos/getvideogeneration",
+    "title": "获取视频生成任务状态 | New API",
+    "method": "GET",
+    "route": "/v1/video/generations/{task_id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/videos/jimeng/createjimengvideo",
+    "title": "即梦视频生成 | New API",
+    "method": "POST",
+    "route": "/jimeng/"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/videos/kling/createklingimage2video",
+    "title": "Kling 图生视频 | New API",
+    "method": "POST",
+    "route": "/kling/v1/videos/image2video"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/videos/kling/createklingtext2video",
+    "title": "Kling 文生视频 | New API",
+    "method": "POST",
+    "route": "/kling/v1/videos/text2video"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/videos/kling/getklingimage2video",
+    "title": "获取 Kling 图生视频任务状态 | New API",
+    "method": "GET",
+    "route": "/kling/v1/videos/image2video/{task_id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/videos/kling/getklingtext2video",
+    "title": "获取 Kling 文生视频任务状态 | New API",
+    "method": "GET",
+    "route": "/kling/v1/videos/text2video/{task_id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/videos/sora/createvideo",
+    "title": "创建视频  | New API",
+    "method": "POST",
+    "route": "/v1/videos"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/videos/sora/getvideo",
+    "title": "获取视频任务状态  | New API",
+    "method": "GET",
+    "route": "/v1/videos/{task_id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/ai-model/videos/sora/getvideocontent",
+    "title": "获取视频内容 | New API",
+    "method": "GET",
+    "route": "/v1/videos/{task_id}/content"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/auth",
+    "title": "鉴权体系说明（Auth） | New API",
+    "method": "",
+    "route": ""
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-batch-post",
+    "title": "批量删除渠道 | New API",
+    "method": "POST",
+    "route": "/api/channel/batch"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-batch-tag-post",
+    "title": "批量设置渠道标签 | New API",
+    "method": "POST",
+    "route": "/api/channel/batch/tag"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-copy-id-post",
+    "title": "复制渠道 | New API",
+    "method": "POST",
+    "route": "/api/channel/copy/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-disabled-delete",
+    "title": "删除已禁用渠道 | New API",
+    "method": "DELETE",
+    "route": "/api/channel/disabled"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-fetch_models-id-get",
+    "title": "获取上游模型列表 | New API",
+    "method": "GET",
+    "route": "/api/channel/fetch_models/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-fetch_models-post",
+    "title": "获取模型列表 | New API",
+    "method": "POST",
+    "route": "/api/channel/fetch_models"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-fix-post",
+    "title": "修复渠道能力 | New API",
+    "method": "POST",
+    "route": "/api/channel/fix"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-get",
+    "title": "获取所有渠道 | New API",
+    "method": "GET",
+    "route": "/api/channel/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-id-delete",
+    "title": "删除渠道 | New API",
+    "method": "DELETE",
+    "route": "/api/channel/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-id-get",
+    "title": "获取指定渠道 | New API",
+    "method": "GET",
+    "route": "/api/channel/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-id-key-post",
+    "title": "获取渠道密钥 | New API",
+    "method": "POST",
+    "route": "/api/channel/{id}/key"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-models_enabled-get",
+    "title": "获取已启用模型列表 | New API",
+    "method": "GET",
+    "route": "/api/channel/models_enabled"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-models-get",
+    "title": "获取渠道模型列表 | New API",
+    "method": "GET",
+    "route": "/api/channel/models"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-multi_key-manage-post",
+    "title": "管理多密钥 | New API",
+    "method": "POST",
+    "route": "/api/channel/multi_key/manage"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-post",
+    "title": "添加渠道 | New API",
+    "method": "POST",
+    "route": "/api/channel/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-put",
+    "title": "更新渠道 | New API",
+    "method": "PUT",
+    "route": "/api/channel/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-search-get",
+    "title": "搜索渠道 | New API",
+    "method": "GET",
+    "route": "/api/channel/search"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-tag-disabled-post",
+    "title": "禁用标签渠道 | New API",
+    "method": "POST",
+    "route": "/api/channel/tag/disabled"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-tag-enabled-post",
+    "title": "启用标签渠道 | New API",
+    "method": "POST",
+    "route": "/api/channel/tag/enabled"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-tag-models-get",
+    "title": "获取标签模型 | New API",
+    "method": "GET",
+    "route": "/api/channel/tag/models"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-tag-put",
+    "title": "编辑标签渠道 | New API",
+    "method": "PUT",
+    "route": "/api/channel/tag"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-test-get",
+    "title": "测试所有渠道 | New API",
+    "method": "GET",
+    "route": "/api/channel/test"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-test-id-get",
+    "title": "测试指定渠道 | New API",
+    "method": "GET",
+    "route": "/api/channel/test/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-update_balance-get",
+    "title": "更新所有渠道余额 | New API",
+    "method": "GET",
+    "route": "/api/channel/update_balance"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/channel-management/channel-update_balance-id-get",
+    "title": "更新指定渠道余额 | New API",
+    "method": "GET",
+    "route": "/api/channel/update_balance/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/default/user-topup-post",
+    "title": "使用兑换码 | New API",
+    "method": "POST",
+    "route": "/api/user/topup"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/groups/group-get",
+    "title": "获取所有分组 | New API",
+    "method": "GET",
+    "route": "/api/group/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/groups/prefill_group-get",
+    "title": "获取预填分组 | New API",
+    "method": "GET",
+    "route": "/api/prefill_group/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/groups/prefill_group-id-delete",
+    "title": "删除预填分组 | New API",
+    "method": "DELETE",
+    "route": "/api/prefill_group/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/groups/prefill_group-post",
+    "title": "创建预填分组 | New API",
+    "method": "POST",
+    "route": "/api/prefill_group/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/groups/prefill_group-put",
+    "title": "更新预填分组 | New API",
+    "method": "PUT",
+    "route": "/api/prefill_group/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/logs/log-delete",
+    "title": "删除历史日志 | New API",
+    "method": "DELETE",
+    "route": "/api/log/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/logs/log-get",
+    "title": "获取所有日志 | New API",
+    "method": "GET",
+    "route": "/api/log/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/logs/log-search-get",
+    "title": "搜索日志 | New API",
+    "method": "GET",
+    "route": "/api/log/search"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/logs/log-self-get",
+    "title": "获取个人日志 | New API",
+    "method": "GET",
+    "route": "/api/log/self"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/logs/log-self-search-get",
+    "title": "搜索个人日志 | New API",
+    "method": "GET",
+    "route": "/api/log/self/search"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/logs/log-self-stat-get",
+    "title": "获取个人日志统计 | New API",
+    "method": "GET",
+    "route": "/api/log/self/stat"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/logs/log-stat-get",
+    "title": "获取日志统计 | New API",
+    "method": "GET",
+    "route": "/api/log/stat"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/logs/log-token-get",
+    "title": "通过令牌获取日志 | New API",
+    "method": "GET",
+    "route": "/api/log/token"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/model-management/models-get",
+    "title": "获取所有模型元数据 | New API",
+    "method": "GET",
+    "route": "/api/models/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/model-management/models-id-delete",
+    "title": "删除模型 | New API",
+    "method": "DELETE",
+    "route": "/api/models/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/model-management/models-id-get",
+    "title": "获取指定模型 | New API",
+    "method": "GET",
+    "route": "/api/models/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/model-management/models-missing-get",
+    "title": "获取缺失模型 | New API",
+    "method": "GET",
+    "route": "/api/models/missing"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/model-management/models-post",
+    "title": "创建模型元数据 | New API",
+    "method": "POST",
+    "route": "/api/models/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/model-management/models-put",
+    "title": "更新模型元数据 | New API",
+    "method": "PUT",
+    "route": "/api/models/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/model-management/models-search-get",
+    "title": "搜索模型 | New API",
+    "method": "GET",
+    "route": "/api/models/search"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/model-management/models-sync_upstream-post",
+    "title": "同步上游模型 | New API",
+    "method": "POST",
+    "route": "/api/models/sync_upstream"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/model-management/models-sync_upstream-preview-get",
+    "title": "预览上游模型同步 | New API",
+    "method": "GET",
+    "route": "/api/models/sync_upstream/preview"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/oauth/oauth-discord-get",
+    "title": "Discord OAuth登录 | New API",
+    "method": "GET",
+    "route": "/api/oauth/discord"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/oauth/oauth-email-bind-get",
+    "title": "绑定邮箱 | New API",
+    "method": "GET",
+    "route": "/api/oauth/email/bind"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/oauth/oauth-github-get",
+    "title": "GitHub OAuth登录 | New API",
+    "method": "GET",
+    "route": "/api/oauth/github"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/oauth/oauth-linuxdo-get",
+    "title": "LinuxDO OAuth登录 | New API",
+    "method": "GET",
+    "route": "/api/oauth/linuxdo"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/oauth/oauth-oidc-get",
+    "title": "OIDC登录 | New API",
+    "method": "GET",
+    "route": "/api/oauth/oidc"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/oauth/oauth-state-get",
+    "title": "生成OAuth State | New API",
+    "method": "GET",
+    "route": "/api/oauth/state"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/oauth/oauth-telegram-bind-get",
+    "title": "绑定Telegram | New API",
+    "method": "GET",
+    "route": "/api/oauth/telegram/bind"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/oauth/oauth-telegram-login-get",
+    "title": "Telegram登录 | New API",
+    "method": "GET",
+    "route": "/api/oauth/telegram/login"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/oauth/oauth-wechat-bind-get",
+    "title": "绑定微信 | New API",
+    "method": "GET",
+    "route": "/api/oauth/wechat/bind"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/oauth/oauth-wechat-get",
+    "title": "微信OAuth登录 | New API",
+    "method": "GET",
+    "route": "/api/oauth/wechat"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/payment/creem-webhook-post",
+    "title": "Creem Webhook | New API",
+    "method": "POST",
+    "route": "/api/creem/webhook"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/payment/stripe-webhook-post",
+    "title": "Stripe Webhook | New API",
+    "method": "POST",
+    "route": "/api/stripe/webhook"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/payment/user-amount-post",
+    "title": "获取支付金额 | New API",
+    "method": "POST",
+    "route": "/api/user/amount"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/payment/user-creem-pay-post",
+    "title": "发起Creem支付 | New API",
+    "method": "POST",
+    "route": "/api/user/creem/pay"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/payment/user-epay-notify-get",
+    "title": "易支付回调 | New API",
+    "method": "GET",
+    "route": "/api/user/epay/notify"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/payment/user-pay-post",
+    "title": "发起易支付 | New API",
+    "method": "POST",
+    "route": "/api/user/pay"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/payment/user-stripe-amount-post",
+    "title": "获取Stripe支付金额 | New API",
+    "method": "POST",
+    "route": "/api/user/stripe/amount"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/payment/user-stripe-pay-post",
+    "title": "发起Stripe支付 | New API",
+    "method": "POST",
+    "route": "/api/user/stripe/pay"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/payment/user-topup-info-get",
+    "title": "获取充值信息 | New API",
+    "method": "GET",
+    "route": "/api/user/topup/info"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/payment/user-topup-self-get",
+    "title": "获取用户充值记录 | New API",
+    "method": "GET",
+    "route": "/api/user/topup/self"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/redemption/redemption-get",
+    "title": "获取所有兑换码 | New API",
+    "method": "GET",
+    "route": "/api/redemption/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/redemption/redemption-id-delete",
+    "title": "删除兑换码 | New API",
+    "method": "DELETE",
+    "route": "/api/redemption/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/redemption/redemption-id-get",
+    "title": "获取指定兑换码 | New API",
+    "method": "GET",
+    "route": "/api/redemption/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/redemption/redemption-invalid-delete",
+    "title": "删除无效兑换码 | New API",
+    "method": "DELETE",
+    "route": "/api/redemption/invalid"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/redemption/redemption-post",
+    "title": "创建兑换码 | New API",
+    "method": "POST",
+    "route": "/api/redemption/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/redemption/redemption-put",
+    "title": "更新兑换码 | New API",
+    "method": "PUT",
+    "route": "/api/redemption/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/redemption/redemption-search-get",
+    "title": "搜索兑换码 | New API",
+    "method": "GET",
+    "route": "/api/redemption/search"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/security-verification/verify-post",
+    "title": "通用安全验证 | New API",
+    "method": "POST",
+    "route": "/api/verify"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/security-verification/verify-status-get",
+    "title": "获取验证状态 | New API",
+    "method": "GET",
+    "route": "/api/verify/status"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/statistics/data-get",
+    "title": "获取所有额度数据 | New API",
+    "method": "GET",
+    "route": "/api/data/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/statistics/data-self-get",
+    "title": "获取个人额度数据 | New API",
+    "method": "GET",
+    "route": "/api/data/self"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system-settings/option-get",
+    "title": "获取系统选项 | New API",
+    "method": "GET",
+    "route": "/api/option/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system-settings/option-migrate_console_setting-post",
+    "title": "迁移控制台设置 | New API",
+    "method": "POST",
+    "route": "/api/option/migrate_console_setting"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system-settings/option-put",
+    "title": "更新系统选项 | New API",
+    "method": "PUT",
+    "route": "/api/option/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system-settings/option-rest_model_ratio-post",
+    "title": "重置模型倍率 | New API",
+    "method": "POST",
+    "route": "/api/option/rest_model_ratio"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system-settings/ratio_sync-channels-get",
+    "title": "获取可同步渠道 | New API",
+    "method": "GET",
+    "route": "/api/ratio_sync/channels"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system-settings/ratio_sync-fetch-post",
+    "title": "获取上游倍率 | New API",
+    "method": "POST",
+    "route": "/api/ratio_sync/fetch"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system/about-get",
+    "title": "获取关于信息 | New API",
+    "method": "GET",
+    "route": "/api/about"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system/home_page_content-get",
+    "title": "获取首页内容 | New API",
+    "method": "GET",
+    "route": "/api/home_page_content"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system/models-get",
+    "title": "获取模型列表 | New API",
+    "method": "GET",
+    "route": "/api/models"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system/notice-get",
+    "title": "获取公告 | New API",
+    "method": "GET",
+    "route": "/api/notice"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system/pricing-get",
+    "title": "获取定价信息 | New API",
+    "method": "GET",
+    "route": "/api/pricing"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system/privacy-policy-get",
+    "title": "获取隐私政策 | New API",
+    "method": "GET",
+    "route": "/api/privacy-policy"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system/ratio_config-get",
+    "title": "获取倍率配置 | New API",
+    "method": "GET",
+    "route": "/api/ratio_config"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system/setup-get",
+    "title": "获取初始化状态 | New API",
+    "method": "GET",
+    "route": "/api/setup"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system/setup-post",
+    "title": "初始化系统 | New API",
+    "method": "POST",
+    "route": "/api/setup"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system/status-get",
+    "title": "获取系统状态 | New API",
+    "method": "GET",
+    "route": "/api/status"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system/status-test-get",
+    "title": "测试系统状态 | New API",
+    "method": "GET",
+    "route": "/api/status/test"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system/uptime-status-get",
+    "title": "获取Uptime Kuma状态 | New API",
+    "method": "GET",
+    "route": "/api/uptime/status"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/system/user-agreement-get",
+    "title": "获取用户协议 | New API",
+    "method": "GET",
+    "route": "/api/user-agreement"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/tasks/mj-get",
+    "title": "获取所有Midjourney任务 | New API",
+    "method": "GET",
+    "route": "/api/mj/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/tasks/mj-self-get",
+    "title": "获取个人Midjourney任务 | New API",
+    "method": "GET",
+    "route": "/api/mj/self"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/tasks/task-get",
+    "title": "获取所有任务 | New API",
+    "method": "GET",
+    "route": "/api/task/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/tasks/task-self-get",
+    "title": "获取个人任务 | New API",
+    "method": "GET",
+    "route": "/api/task/self"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/token-management/token-batch-post",
+    "title": "批量删除令牌 | New API",
+    "method": "POST",
+    "route": "/api/token/batch"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/token-management/token-get",
+    "title": "获取所有令牌 | New API",
+    "method": "GET",
+    "route": "/api/token/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/token-management/token-id-delete",
+    "title": "删除令牌 | New API",
+    "method": "DELETE",
+    "route": "/api/token/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/token-management/token-id-get",
+    "title": "获取指定令牌 | New API",
+    "method": "GET",
+    "route": "/api/token/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/token-management/token-post",
+    "title": "创建令牌 | New API",
+    "method": "POST",
+    "route": "/api/token/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/token-management/token-put",
+    "title": "更新令牌 | New API",
+    "method": "PUT",
+    "route": "/api/token/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/token-management/token-search-get",
+    "title": "搜索令牌 | New API",
+    "method": "GET",
+    "route": "/api/token/search"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/token-management/usage-token-get",
+    "title": "获取令牌使用情况 | New API",
+    "method": "GET",
+    "route": "/api/usage/token/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/two-factor-auth/user-2fa-backup_codes-post",
+    "title": "重新生成备用码 | New API",
+    "method": "POST",
+    "route": "/api/user/2fa/backup_codes"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/two-factor-auth/user-2fa-disable-post",
+    "title": "禁用2FA | New API",
+    "method": "POST",
+    "route": "/api/user/2fa/disable"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/two-factor-auth/user-2fa-enable-post",
+    "title": "启用2FA | New API",
+    "method": "POST",
+    "route": "/api/user/2fa/enable"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/two-factor-auth/user-2fa-setup-post",
+    "title": "设置2FA | New API",
+    "method": "POST",
+    "route": "/api/user/2fa/setup"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/two-factor-auth/user-2fa-stats-get",
+    "title": "获取2FA统计 | New API",
+    "method": "GET",
+    "route": "/api/user/2fa/stats"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/two-factor-auth/user-2fa-status-get",
+    "title": "获取2FA状态 | New API",
+    "method": "GET",
+    "route": "/api/user/2fa/status"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-auth/reset_password-get",
+    "title": "发送密码重置邮件 | New API",
+    "method": "GET",
+    "route": "/api/reset_password"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-auth/user-groups-get",
+    "title": "获取用户分组列表 | New API",
+    "method": "GET",
+    "route": "/api/user/groups"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-auth/user-login-2fa-post",
+    "title": "两步验证登录 | New API",
+    "method": "POST",
+    "route": "/api/user/login/2fa"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-auth/user-login-post",
+    "title": "用户登录 | New API",
+    "method": "POST",
+    "route": "/api/user/login"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-auth/user-logout-get",
+    "title": "用户登出 | New API",
+    "method": "GET",
+    "route": "/api/user/logout"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-auth/user-passkey-login-begin-post",
+    "title": "开始Passkey登录 | New API",
+    "method": "POST",
+    "route": "/api/user/passkey/login/begin"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-auth/user-passkey-login-finish-post",
+    "title": "完成Passkey登录 | New API",
+    "method": "POST",
+    "route": "/api/user/passkey/login/finish"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-auth/user-register-post",
+    "title": "用户注册 | New API",
+    "method": "POST",
+    "route": "/api/user/register"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-auth/user-reset-post",
+    "title": "重置密码 | New API",
+    "method": "POST",
+    "route": "/api/user/reset"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-auth/verification-get",
+    "title": "发送邮箱验证码 | New API",
+    "method": "GET",
+    "route": "/api/verification"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-aff_transfer-post",
+    "title": "转换邀请额度 | New API",
+    "method": "POST",
+    "route": "/api/user/aff_transfer"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-aff-get",
+    "title": "获取邀请码 | New API",
+    "method": "GET",
+    "route": "/api/user/aff"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-get",
+    "title": "获取所有用户 | New API",
+    "method": "GET",
+    "route": "/api/user/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-id-2fa-delete",
+    "title": "管理员禁用用户2FA | New API",
+    "method": "DELETE",
+    "route": "/api/user/{id}/2fa"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-id-delete",
+    "title": "删除用户 | New API",
+    "method": "DELETE",
+    "route": "/api/user/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-id-get",
+    "title": "获取指定用户 | New API",
+    "method": "GET",
+    "route": "/api/user/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-id-reset_passkey-delete",
+    "title": "管理员重置用户Passkey | New API",
+    "method": "DELETE",
+    "route": "/api/user/{id}/reset_passkey"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-manage-post",
+    "title": "管理用户状态 | New API",
+    "method": "POST",
+    "route": "/api/user/manage"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-models-get",
+    "title": "获取用户可用模型 | New API",
+    "method": "GET",
+    "route": "/api/user/models"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-passkey-delete",
+    "title": "删除Passkey | New API",
+    "method": "DELETE",
+    "route": "/api/user/passkey"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-passkey-get",
+    "title": "获取Passkey状态 | New API",
+    "method": "GET",
+    "route": "/api/user/passkey"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-passkey-register-begin-post",
+    "title": "开始注册Passkey | New API",
+    "method": "POST",
+    "route": "/api/user/passkey/register/begin"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-passkey-register-finish-post",
+    "title": "完成注册Passkey | New API",
+    "method": "POST",
+    "route": "/api/user/passkey/register/finish"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-passkey-verify-begin-post",
+    "title": "开始验证Passkey | New API",
+    "method": "POST",
+    "route": "/api/user/passkey/verify/begin"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-passkey-verify-finish-post",
+    "title": "完成验证Passkey | New API",
+    "method": "POST",
+    "route": "/api/user/passkey/verify/finish"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-post",
+    "title": "创建用户 | New API",
+    "method": "POST",
+    "route": "/api/user/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-put",
+    "title": "更新用户 | New API",
+    "method": "PUT",
+    "route": "/api/user/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-search-get",
+    "title": "搜索用户 | New API",
+    "method": "GET",
+    "route": "/api/user/search"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-self-delete",
+    "title": "注销当前用户 | New API",
+    "method": "DELETE",
+    "route": "/api/user/self"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-self-get",
+    "title": "获取当前用户信息 | New API",
+    "method": "GET",
+    "route": "/api/user/self"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-self-groups-get",
+    "title": "获取当前用户分组 | New API",
+    "method": "GET",
+    "route": "/api/user/self/groups"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-self-put",
+    "title": "更新当前用户信息 | New API",
+    "method": "PUT",
+    "route": "/api/user/self"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-setting-put",
+    "title": "更新用户设置 | New API",
+    "method": "PUT",
+    "route": "/api/user/setting"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-token-get",
+    "title": "生成访问令牌 | New API",
+    "method": "GET",
+    "route": "/api/user/token"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-topup-complete-post",
+    "title": "管理员完成充值 | New API",
+    "method": "POST",
+    "route": "/api/user/topup/complete"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/user-management/user-topup-get",
+    "title": "获取所有充值记录 | New API",
+    "method": "GET",
+    "route": "/api/user/topup"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/vendors/vendors-get",
+    "title": "获取所有供应商 | New API",
+    "method": "GET",
+    "route": "/api/vendors/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/vendors/vendors-id-delete",
+    "title": "删除供应商 | New API",
+    "method": "DELETE",
+    "route": "/api/vendors/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/vendors/vendors-id-get",
+    "title": "获取指定供应商 | New API",
+    "method": "GET",
+    "route": "/api/vendors/{id}"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/vendors/vendors-post",
+    "title": "创建供应商 | New API",
+    "method": "POST",
+    "route": "/api/vendors/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/vendors/vendors-put",
+    "title": "更新供应商 | New API",
+    "method": "PUT",
+    "route": "/api/vendors/"
+  },
+  {
+    "doc_path": "/zh/docs/api/management/vendors/vendors-search-get",
+    "title": "搜索供应商 | New API",
+    "method": "GET",
+    "route": "/api/vendors/search"
+  }
+]
