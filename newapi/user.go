@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"xy200303/go-newapi-sdk/newapi/core"
+	"github.com/xy200303/go-newapi-sdk/newapi/core"
 )
 
 func (c *Client) UserLogin(username, password string) (string, error) {

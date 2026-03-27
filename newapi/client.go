@@ -5,9 +5,9 @@ import (
 	"io"
 	"net/http"
 
-	"xy200303/go-newapi-sdk/newapi/aimodel"
-	"xy200303/go-newapi-sdk/newapi/core"
-	"xy200303/go-newapi-sdk/newapi/management"
+	"github.com/xy200303/go-newapi-sdk/newapi/aimodel"
+	"github.com/xy200303/go-newapi-sdk/newapi/core"
+	"github.com/xy200303/go-newapi-sdk/newapi/management"
 )
 
 type Option = core.Option

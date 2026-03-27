@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	newapi "xy200303/go-newapi-sdk/newapi"
+	newapi "github.com/xy200303/go-newapi-sdk/newapi"
 )
 
 func main() {

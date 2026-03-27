@@ -1,6 +1,6 @@
-# xy200303/go-newapi-sdk
+# github.com/xy200303/go-newapi-sdk
 
-`xy200303/go-newapi-sdk` 是一个面向 [New API 官方文档](https://docs.newapi.pro/zh/docs/api) 的 Go SDK。
+`github.com/xy200303/go-newapi-sdk` 是一个面向 [New API 官方文档](https://docs.newapi.pro/zh/docs/api) 的 Go SDK。
 
 项目目标是把文档中的 AI 模型接口和管理接口整理成标准、可维护、可扩展的 Go SDK，同时保留一部分更适合业务代码直接调用的手写辅助方法。
 
@@ -8,7 +8,7 @@
 
 ## 特性
 
-- 标准 Go 模块结构，模块名为 `xy200303/go-newapi-sdk`
+- 标准 Go 模块结构，模块名为 `github.com/xy200303/go-newapi-sdk`
 - 对外统一入口包为 `newapi/`
 - 同时提供“文档镜像接口树”和“高频业务辅助方法”两种使用方式
 - 已按职责拆分为 `newapi/core`、`newapi/aimodel`、`newapi/management`
@@ -20,13 +20,13 @@
 ## 安装
 
 ```bash
-go get xy200303/go-newapi-sdk
+go get github.com/xy200303/go-newapi-sdk
 ```
 
 导入方式：
 
 ```go
-import newapi "xy200303/go-newapi-sdk/newapi"
+import newapi "github.com/xy200303/go-newapi-sdk/newapi"
 ```
 
 ## 适用场景
@@ -56,7 +56,7 @@ import (
 	"fmt"
 	"log"
 
-	newapi "xy200303/go-newapi-sdk/newapi"
+	newapi "github.com/xy200303/go-newapi-sdk/newapi"
 )
 
 func main() {

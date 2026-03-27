@@ -1,6 +1,6 @@
 package newapi
 
-import "xy200303/go-newapi-sdk/newapi/core"
+import "github.com/xy200303/go-newapi-sdk/newapi/core"
 
 type Auth = core.Auth
 type CallConfig = core.CallConfig
