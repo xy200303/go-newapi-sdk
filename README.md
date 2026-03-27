@@ -417,4 +417,4 @@ go test ./...
 
 ## License
 
-当前仓库尚未单独声明 License 文件；如需开源发布，建议补充 `LICENSE`。
+本项目使用 [MIT License](./LICENSE)。
